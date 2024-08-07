@@ -11,21 +11,3 @@ body {
   background: #1d1d1d;
 }
 
-.recent-orders table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.recent-orders th,
-.recent-orders td {
-  padding: 10px;
-  border-bottom: 1px solid #444;
-}
-
-/* .customer-feedback .feedback {
-  margin-bottom: 20px;
-} */
-/* 
-.customer-feedback .stars {
-  color: gold;
-} */
