@@ -5,7 +5,7 @@ export const orders = [
         , customer: 'Wade Warren', orderNo: '15478256', amount: '$124.00', status: 'Delivered'
     },
     {
-        profileIcon: <img src="https://robohash.org/${Math.random().toString(34).substring(7)}.png" alt=' ' width="20" height="20" />
+        profileIcon: <img src="https://robohash.org/sdfghjhbdvr5twqwretyut6tw4.png" alt=' ' width="20" height="20" />
         , customer: 'Jane Cooper', orderNo: '48967586', amount: '$305.02', status: 'Delivered'
     },
     {
@@ -17,11 +17,11 @@ export const orders = [
         , customer: 'Kristin Watson', orderNo: '20965732', amount: '$60.00', status: 'Pending'
     },
     {
-        profileIcon: <img src="https://robohash.org/${Math.random().toString(18).substring(7)}.png" alt=' ' width="20" height="20" />
+        profileIcon: <img src="https://robohash.org/12342tyujhgsfdghcmjkjhfgdzsdfjfgn.png" alt=' ' width="20" height="20" />
         , customer: 'Cody Fisher', orderNo: '95715620', amount: '$545.00', status: 'Delivered'
     },
     {
-        profileIcon: <img src="https://robohash.org/${Math.random().toString(36)}.png" alt=' ' width="20" height="20" />
+        profileIcon: <img src="https://robohash.org/12345657uhgfsdazdxcgvcnmhggh" alt=' ' width="20" height="20" />
         , customer: 'Savannah Nguyen', orderNo: '78514568', amount: '$128.20', status: 'Delivered'
     },
 ];
