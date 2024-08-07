@@ -12,7 +12,7 @@ export default function Card({ theme, icon, title, value, index }) {
             </div>
             <div className="flex mt-1 justify-between">
                 <p className="font-extrabold ">{value}</p>
-                <span className={"pt-1 text-xs font-extrabold " + ` ${percent } `}>3%</span>
+                <span className={  ` pt-1 text-xs font-extrabold  ${percent } `}>3%</span>
             </div>
         </div>
     );
