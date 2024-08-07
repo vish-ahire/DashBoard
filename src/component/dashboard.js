@@ -15,7 +15,7 @@ export default function Dashboard() {
                 <div className='flex '>
                     {/* left */}
                     <div className='basis-3/5  bg-slate-800'>
-                        <div className="flex justify-between shrink-0 flex-row md:flex flex-wrap">
+                        <div className="flex justify-between shrink-0 flex-row  flex-wrap gap-3">
                             {data.map((e, index) =>
                                 (<Card key={e.title} index={index} icon={e.icon} theme={e.theme} title={e.title} value={e.value} />)
                             )}
@@ -27,8 +27,8 @@ export default function Dashboard() {
                     </div>
 
                     {/* right */}
-                    <div className="basis-2/5 bg-slate-800">
-                        <div className='flex  justify-between mx-5 p-5 mb-5 rounded-lg  text-center bg-slate-900'>
+                    <div className="basis-2/5  bg-slate-800">
+                        <div className='flex  justify-between mx-5 p-5 mb-5 rounded-lg  text-center bg-slate-900 hover:scale-105'>
                             <div className='flex flex-col justify-between'>
                                 <h3 className='flex  '>Net Profit</h3>
                                 <div className="flex items-center text-4xl font-extrabold">
