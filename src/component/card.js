@@ -1,5 +1,7 @@
 
 export default function Card({ theme, icon, title, value, index }) {
+    const percent = index % 2 === 0 ? "text-red-600 " : "text-green-600";
+
     return (
         <div className={`p-6 mb-5 rounded-lg bg-slate-900 hover:shadow-2xl w-40 hover:shadow-blue-900`}>
             <div className="flex flex-col">
@@ -10,7 +12,7 @@ export default function Card({ theme, icon, title, value, index }) {
             </div>
             <div className="flex mt-1 justify-between">
                 <p className="font-extrabold ">{value}</p>
-                <span className={"pt-1 text-xs font-extrabold " + ` ${index % 2 === 0 ? "text-red-600 " : "text-green-600"} `}>3%</span>
+                <span className={"pt-1 text-xs font-extrabold " + ` ${percent } `}>3%</span>
             </div>
         </div>
     );
