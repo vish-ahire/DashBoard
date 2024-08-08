@@ -3,7 +3,7 @@ import { FaRegUserCircle, IoIosNotificationsOutline, CiSettings, CiMail } from '
 
 export default function Header() {
     return (
-        <header className="flex sticky justify-between items-center m-3 ">
+        <header className="sticky top-0 p-3 bg-gray-950 z-10 rounded-e-2xl flex justify-between items-center  ">
 
             <input type="text" placeholder="Search" className=' border-none mx-2 rounded-md text-black' />
             <div className=" flex  space-x-8 items-center">

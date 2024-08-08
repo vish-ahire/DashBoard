@@ -1,13 +1,6 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #1d1d1d;
   color: #fff;
+  background-color: black;
 }
-
-.dashboard {
-  padding: 20px;
-  flex: 1;
-  background: #1d1d1d;
-}
-

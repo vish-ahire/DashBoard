@@ -4,7 +4,7 @@ import Sidebar from './component/sidebar';
 import MainDashBoard from './component/mainDashBoard';
 function App() {
   return (
-    <div className="flex w-full h-screen">
+    <div className="flex w-full">
       <Sidebar />
       <MainDashBoard />
     </div>

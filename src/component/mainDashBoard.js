@@ -4,7 +4,7 @@ import Dashboard from './dashboard';
 
 export default function MainDashBoard() {
     return (
-        <div className="flex flex-col">
+        <div className="flex  flex-col ">
             
             <Header  />
             <Dashboard />
